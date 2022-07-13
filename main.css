@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+::placeholder{color: #8c8c8c; padding: 0 15px; transition: .3s;}
+
+
+
+
+ body{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.4)
+    ),url('imgs/netflix-fondo.jpg');
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+} 
+
+/* header */
+
+header{
+   padding: 2px 15px;
+}
+
+.header nav img{
+  width: 200px;
+}
+
+.login{
+    
+    background-color: rgba(0,0,0,.75); 
+    display: flex;
+    
+    width: 40%;
+    padding: 100px ;
+    height: 70%;
+    margin: 0 auto;
+    border-radius: 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-date{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 30px;
+}
+.login-date input{
+    width: 314px;
+    height: 50px;
+    background-color: #333333;
+    border-radius: 5px;
+    border: none;
+    color:#fff ;
+}
+
+
+.login-date #iniciar{
+    font-size: 32px;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    margin-bottom: 30px;
+    color: #ffffff;
+    
+}
+
+.login-date button{
+    height: 50px;
+    font-size: 16px;
+    background-color: #e50914;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.login-footer{
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+}
+
+#ayuda{
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+#ayuda:hover{
+
+    text-decoration: underline;
+
+}
+
+.login-footer label{
+   float: left; 
+}
+
+label{
+    color: #b3b3b3;
+}
+
+.separador{
+    padding: 0 ;
+    margin: 0 20px ;
+    margin-bottom: 20px;
+}
+
+.letras-finales{
+    color: #8c8c8c;
+    margin-bottom: 60px;
+}
+
+.letras-finales #pr{
+
+    color: #737373;
+    padding: 0 20px;
+
+}
+
+.letras-finales #pr a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Helvetica Noue";
+
+}
+
+.letras-finales #pr a:hover{
+    text-decoration: underline;
+}
+
+#netflix{
+    color: #0071eb;
+    text-decoration: none;
+}
+
+#netflix:hover{
+    text-decoration: underline;
+}

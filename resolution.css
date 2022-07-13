@@ -1,0 +1,107 @@
+@media  screen and (max-width: 900px){
+    .login{
+        padding: 50px;
+    }
+
+}
+
+@media screen and (max-width: 820px){
+   .login{
+       width: 50%;
+   }
+
+
+}
+
+@media (max-width: 740px){
+
+    body{
+        background-image: url("");
+        background-color: #000;
+    }
+    
+   .login{
+       width: 660px;
+    min-height: 660px;
+    width: 100%;
+    min-width: 100%;
+   }
+
+   .login-date input{
+      width: 660px;
+   }
+
+  
+}
+
+@media screen and (max-width: 660px){
+    .login-date input{
+        width: 600px;
+    }
+
+}
+
+@media (max-width: 580px){
+    .login-date input{
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 440px){
+    .login-date input{
+        width: 400px;
+    }
+
+}
+
+@media  screen and (max-width: 390px){
+    body{
+        
+        background-color: #000;
+    }
+
+    .login-date input{
+        width: 280px;
+    }
+
+    
+
+      
+        
+       .login{
+           width: 660px;
+        min-height: 660px;
+        width: 100%;
+        min-width: 100%;
+       }
+    
+      
+
+}
+
+@media  screen and (max-width: 360px){
+    body{
+        
+        background-color: #000;
+    }
+
+    .login-date input{
+        width: 300px;
+    }
+
+    
+
+      
+        
+       .login{
+           width: 660px;
+        min-height: 660px;
+        width: 100%;
+        min-width: 100%;
+       }
+    
+      
+
+}
+
